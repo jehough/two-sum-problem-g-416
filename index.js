@@ -15,5 +15,5 @@ function bruteForceTwoSum(arr, sum){
 function checkSolutions(num, solution){
   let answer = true
   solution.forEach(arr => arr.includes(num) ? answer = false : null )
-
-  return answer}
+  return answer
+}
