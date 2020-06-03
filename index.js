@@ -7,4 +7,5 @@ function bruteForceTwoSum(arr, sum){
         solution.push(solArr)
       }
   }
+  return solution
 }
