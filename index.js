@@ -13,7 +13,8 @@ function bruteForceTwoSum(arr, sum){
 
 function binarySearchTwoSum(arr, sum){
  let solution = []
-
+ arr.sort()
+ console.log(arr)
 }
 
 function checkSolutions(num, solution){
