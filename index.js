@@ -17,7 +17,7 @@ function binarySearchTwoSum(arr, sum){
  for(num of arr){
    if (checkSolutions(num, solution)){
      let num2 = sum - num
-     
+
    }
  }
 }
