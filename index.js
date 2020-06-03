@@ -7,5 +7,5 @@ function bruteForceTwoSum(arr, sum){
       }
     }
   }
-  return solution
+  return solution.unique
 }
