@@ -17,12 +17,34 @@ function binarySearchTwoSum(arr, sum){
  for(num of array){
    if (checkSolutions(num, solution)){
      let num2 = sum - num
-     if (searchArray(num2)){
+     if (searchArray(num2, array)){
        solution.push([num, num2])
      }
    }
  }
  return solution
+}
+
+function searchArray(num, array){
+  while(array.length > 1){
+  let midpoint = Math.round(array.length/2)
+  let firstHalf = array.slice(0, midpoint)
+  let secondHalf = array.slice(midpoint, array.length)
+  if(secondHalf[0] > num ){
+    return searchArray(num, firstHalf)
+  }
+  else if (secondHalf[0] === num || firstHalf[0] === num) {
+    return true
+  }
+  else{
+    return searchArray(num, secondHalf)
+  }}
+  if (array[0] === num){
+    return true
+  }
+  else{
+    return false
+  }
 }
 
 function checkSolutions(num, solution){
