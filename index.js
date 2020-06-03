@@ -16,7 +16,7 @@ function binarySearchTwoSum(arr, sum){
  arr.sort()
  for(num of arr){
    if (checkSolutions(num, solution)){
-      
+
    }
  }
 }
