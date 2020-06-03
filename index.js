@@ -12,7 +12,7 @@ function bruteForceTwoSum(arr, sum){
 }
 
 function binarySearchTwoSum(arr, sum){
-  
+
 }
 
 function checkSolutions(num, solution){
