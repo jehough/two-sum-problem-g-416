@@ -5,6 +5,7 @@ function bruteForceTwoSum(arr, sum){
       if (num + num2 === sum){
         solution.push([num, num2])
       }
+      arr.shift()
     }
   }
   return solution
