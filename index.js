@@ -22,6 +22,7 @@ function binarySearchTwoSum(arr, sum){
      }
    }
  }
+ return solution
 }
 
 function checkSolutions(num, solution){
