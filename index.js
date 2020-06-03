@@ -12,4 +12,6 @@ function bruteForceTwoSum(arr, sum){
 }
 
 
-chec
+function checkSolutions(num, solution){
+  
+}
