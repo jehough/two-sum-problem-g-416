@@ -13,5 +13,5 @@ function bruteForceTwoSum(arr, sum){
 
 
 function checkSolutions(num, solution){
-
+  solution.forEach(arr => arr.includes(num) ? console.log("don't print"):console.log("print"))
 }
