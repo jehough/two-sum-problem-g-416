@@ -6,6 +6,7 @@ function bruteForceTwoSum(arr, sum){
         let solArr = [num, num2]
         solution.push(solArr)
       }
+    arr.shift()
   }
   return solution
 }
