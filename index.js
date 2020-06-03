@@ -6,8 +6,6 @@ function bruteForceTwoSum(arr, sum){
         solution.push([num, num2])
       }
     }
-    arr.shift()
-    console.log(arr)
   }
   return solution
 }
