@@ -13,7 +13,7 @@ function bruteForceTwoSum(arr, sum){
 
 function binarySearchTwoSum(arr, sum){
  let solution = []
- array = mergeSort(arr)
+ let array = mergeSort(arr)
  for(num of array){
    if (checkSolutions(num, solution)){
      let num2 = sum - num
