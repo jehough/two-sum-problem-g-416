@@ -31,13 +31,13 @@ function binaryMatch(num, array){
   let firstHalf = array.slice(0, midpoint)
   let secondHalf = array.slice(midpoint, array.length)
   if(secondHalf[0] > num ){
-    return searchArray(num, firstHalf)
+    return binaryMatch(num, firstHalf)
   }
   else if (secondHalf[0] === num || firstHalf[0] === num) {
     return true
   }
   else{
-    return searchArray(num, secondHalf)
+    return binaryMatch(num, secondHalf)
   }}
   if (array[0] === num){
     return true
