@@ -11,6 +11,9 @@ function bruteForceTwoSum(arr, sum){
   return solution
 }
 
+function binarySearchTwoSum(arr, sum){
+  
+}
 
 function checkSolutions(num, solution){
   let answer = true
