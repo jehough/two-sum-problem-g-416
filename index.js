@@ -16,7 +16,7 @@ function binarySearchTwoSum(arr, sum){
  array = mergeSort(arr)
  for(num of array){
    if (checkSolutions(num, solution)){
-     let num2 = sum - num 
+     let num2 = sum - num
      if (searchArray(num2)){
        solution.push([num, num2])
      }
