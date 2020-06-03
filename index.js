@@ -17,7 +17,7 @@ function binarySearchTwoSum(arr, sum){
  for(let num of array){
    if (checkSolutions(num, solution)){
      let num2 = sum - num
-     if (searchArray(num2, array)){
+     if (binaryMatch(num2, array)){
        solution.push([num, num2])
      }
    }
@@ -25,7 +25,7 @@ function binarySearchTwoSum(arr, sum){
  return solution
 }
 
-function searchArray(num, array){
+function binaryMatch(num, array){
   while(array.length > 1){
   let midpoint = Math.round(array.length/2)
   let firstHalf = array.slice(0, midpoint)
