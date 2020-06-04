@@ -81,3 +81,6 @@ function mergeSort(array){
     return merge(mergeSort(firstHalf), mergeSort(secondHalf))
   }
 }
+
+function hashTwoSum(arr, sum){
+}
