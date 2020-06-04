@@ -93,6 +93,7 @@ function hashTwoSum(arr, sum){
       }
     }
   }
+  return solution
 }
 
 function createHash(arr){
