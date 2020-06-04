@@ -84,6 +84,7 @@ function mergeSort(array){
 
 function hashTwoSum(arr, sum){
   let solution = []
+  console.log(arr)
   let hash = createHash(arr)
   for(let num of arr){
     if (checkSolutions(num)){
@@ -96,6 +97,7 @@ function hashTwoSum(arr, sum){
 }
 
 function createHash(arr){
+  console.log(arr)
   let hash = {}
   arr.forEach(el => hash[el] = true)
   return hash
