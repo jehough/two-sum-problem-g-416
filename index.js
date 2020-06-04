@@ -86,7 +86,7 @@ function hashTwoSum(arr, sum){
   let solution = []
   let hash = createHash(arr)
   for(let num of arr){
-    if (checkSolutions(num)){
+    if (checkSolutions(num, solution)){
       let num2 = sum - num
       if(hash[num2]){
         solution.push([num, num2])
@@ -97,6 +97,6 @@ function hashTwoSum(arr, sum){
 
 function createHash(arr){
   let hash = {}
-  arr.map(el => hash[el] = true)
+  arr.forEach(el => hash[el] = true)
   return hash
 }
