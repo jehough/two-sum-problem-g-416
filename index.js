@@ -97,7 +97,6 @@ function hashTwoSum(arr, sum){
 
 function createHash(arr){
   let hash = {}
-  console.log(arr)
-  arr.forEach(el => hash[el] = true)
+  arr.each(el => hash[el] = true)
   return hash
 }
